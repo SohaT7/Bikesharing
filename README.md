@@ -73,10 +73,10 @@ Annual subscribers appear to utilize bikes more than short-term customers. That 
 ## Summary
 The annually subscribed users appear to use bikes more than the short-term customers. Males seem to be utilizing bikes more than females, followed by the other genders thereafter. The peak usage timings are in the morning (8 AM and 9 AM) and evening (5 PM and 6 PM). Most rentals are in Manhattan, and for 40 minutes or less. 
 Some other visualization that can be added are:
-(a) Stations by User Type: This can help us figure if tourists use some stations/areas more or different than the annual subscribers/locals. We can make use of longitude and latitude fields to generate a geographical map or station names to create a heat map.
-(b) Traffic in each station: This can help gauge how much traffic that uses Citi Bikes passes by through each station. We can use Station IDs to generate a tree map for this one. 
-(c) Area by Gender type: This can help us determine if there are some areas that are preferred by different genders, or all areas are equally preferred by all of them. We can use the latitude and longitude fields alogn with the gender field. 
-(d) Area by trip duration: We can use latitude and longitude fields with the trip duration field, to determine if the bikers spend more time in certain areas than others. 
+- (a) Stations by User Type: This can help us figure if tourists use some stations/areas more or different than the annual subscribers/locals. We can make use of longitude and latitude fields to generate a geographical map or station names to create a heat map.
+- (b) Traffic in each station: This can help gauge how much traffic that uses Citi Bikes passes by through each station. We can use Station IDs to generate a tree map for this one. 
+- (c) Area by Gender type: This can help us determine if there are some areas that are preferred by different genders, or all areas are equally preferred by all of them. We can use the latitude and longitude fields alogn with the gender field. 
+- (d) Area by trip duration: We can use latitude and longitude fields with the trip duration field, to determine if the bikers spend more time in certain areas than others. 
 
 ### Link to Dashboard:
 [Click here to be directed to the dashboard!](https://public.tableau.com/app/profile/sturr/viz/Book_bikesharing/NYCStory)
