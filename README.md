@@ -4,13 +4,17 @@
 The purpose of this analysis is to explore the NYC Citi Bike sharing data to convince investors to start a similar program in the town of Des Moine.
 
 ### About the Dataset:
-The dataset is the NYC Citi Bike data for August 2019, from the [Citi Bike System Data page](https://ride.citibikenyc.com/system-data):
+The dataset is the NYC Citi Bike data for August 2019, from the [Citi Bike System Data page](https://ride.citibikenyc.com/system-data).
 
 ### Tools Used:
 The dashboard visualization has been created using Tableau, with some modifications to the original dataset made using Python.
 
 ### Description:
-The Trip Duration in the original dataset was changed to a datetime format and the data loaded into a new DataFrame. Using this new dataset, several visualizations were then created in Tableau:
+The Trip Duration in the original dataset was changed to a datetime format and the data loaded into a new DataFrame. The fields contained wihtin this dataset are as follows:
+
+![Data Fields](https://github.com/SohaT7/Bikesharing/blob/main/Images/Datafields.png)
+
+Using this new dataset, several visualizations were then created in Tableau:
 - Number of rides
 - Users breakdown by subscription type and gender
 - August peak hours
