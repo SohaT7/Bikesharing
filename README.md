@@ -7,7 +7,7 @@ The purpose of this analysis is to explore the NYC Citi Bike sharing data to con
 The dataset is the NYC Citi Bike data for August 2019, from the [Citi Bike System Data page](https://ride.citibikenyc.com/system-data).
 
 ### Tools Used:
-The dashboard visualization has been created using Tableau, with some modifications to the original dataset made using Python.
+The [dashboard visualization](https://public.tableau.com/app/profile/sturr/viz/Book_bikesharing/NYCStory) has been created using Tableau, with some modifications to the original dataset made using Python.
 
 ### Description:
 The Trip Duration in the original dataset was changed to a datetime format and the data loaded into a new DataFrame. The fields contained wihtin this dataset are as follows:
