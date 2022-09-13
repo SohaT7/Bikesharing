@@ -7,6 +7,8 @@ The purpose of this analysis is to explore the NYC Citi Bike sharing data to con
 The dataset is the NYC Citi Bike data for August 2019, from the [Citi Bike System Data page](https://ride.citibikenyc.com/system-data).
 
 ### Tools Used:
+- Tableau
+- Python
 The [dashboard visualization](https://public.tableau.com/app/profile/sturr/viz/Book_bikesharing/NYCStory) has been created using Tableau, with some modifications to the original dataset made using Python.
 
 ### Description:
