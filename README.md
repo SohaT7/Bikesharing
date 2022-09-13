@@ -58,17 +58,17 @@ Graphs for all genders start to level around the 40 minutes mark, i.e. most bike
 ### (f) Trips by weekday for each hour
 During the weekdays, the checkout times are highest around 8 AM, 5 PM, and 6 PM. During the weekends, the checkout times are highest around 10 AM to 5 PM.
 
-![Heat map showing Trips by weekday for each hour]()
+![Heat map showing Trips by weekday for each hour](https://github.com/SohaT7/Bikesharing/blob/main/Images/TripsByWeekday.png)
 
 ### (g) Trips by gender (weekday per hour)
 Checkouts are highest around 7 AM, 8 AM, and 5 to 6 PM during the weekdays, with them being the highest for males.
 
-![Heat map showing Trips by gender (weekday per hour)]()
+![Heat map showing Trips by gender (weekday per hour)](https://github.com/SohaT7/Bikesharing/blob/main/Images/TripsByGender.png)
 
 ### (h) User trips by gender by weekday
 Annual subscribers appear to utilize bikes more than short-term customers. That said, male subscribers appear to use bikes more than females.
 
-![Heat map showing User trips by gender by weekday]()
+![Heat map showing User trips by gender by weekday](https://github.com/SohaT7/Bikesharing/blob/main/Images/UserTrips.png)
 
 ## Summary
 The annually subscribed users appear to use bikes more than the short-term customers. Males seem to be utilizing bikes more than females, followed by the other genders thereafter. The peak usage timings are in the morning (8 AM and 9 AM) and evening (5 PM and 6 PM). Most rentals are in Manhattan, and for 40 minutes or less. 
