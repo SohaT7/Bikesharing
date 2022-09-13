@@ -31,14 +31,14 @@ Using this new dataset, several visualizations were then created in Tableau:
 ### (a) Overview of data:
 Number of rides in the month of August are 2,344,224 in total. The proportion of short-term customers of the bike service to its annual subscribers is 443,865 customers to 1,900,359 subscribers. Peak hours for bike trips/rentals during the month of August are: 5 PM and 6 PM, followed by 8 AM and 9 AM.
 
-![Bar graph showing Peak Hours for Bike Rentals]()
+![Overview of data](https://github.com/SohaT7/Bikesharing/blob/main/Images/Overview.png)
 
 ### (b) Top starting and ending locations in NYC in August 2019
 The highest traffic locations for starting and ending points appear to be in Manhattan. The most popular locations are denoted by symbols which have a larger size and a darker-toned color, as can be seen in the maps below, which show the top starting locations and top ending locations respectively:
 
-![Map showing the Top Starting Locations]()
+![Map showing the Top Starting Locations](https://github.com/SohaT7/Bikesharing/blob/main/Images/TopStartingLocations.png)
 
-![Map showing the Top Ending Locations]()
+![Map showing the Top Ending Locations](https://github.com/SohaT7/Bikesharing/blob/main/Images/TopEndingLocations.png)
 
 ### (c) Bike Repairs
 The tree map helps us visualize how often a bike is used and which among all are used most frequently. The latter will most probably require repairs most often.
