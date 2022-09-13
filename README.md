@@ -43,17 +43,17 @@ The highest traffic locations for starting and ending points appear to be in Man
 ### (c) Bike Repairs
 The tree map helps us visualize how often a bike is used and which among all are used most frequently. The latter will most probably require repairs most often.
 
-![Tree map showing Bike Usage Frequency]()
+![Tree map showing Bike Usage Frequency](https://github.com/SohaT7/Bikesharing/blob/main/Images/BikeRepairs.png)
 
 ### (d) Checkout times for users
 Most of the bikes are checked out for around 40 minutes or less.
 
-![Graph showing the Checkout times for users]()
+![Graph showing the Checkout times for users](https://github.com/SohaT7/Bikesharing/blob/main/Images/CheckoutTimesForUsers.png)
 
 ### (e) Checkout times by gender
 Graphs for all genders start to level around the 40 minutes mark, i.e. most bikes are checked by all genders for 40 minutes or under. Most of these bikes are checkout by males, followed by females, and then others. 
 
-![Graph showing Checkout times by gender]()
+![Graph showing Checkout times by gender](https://github.com/SohaT7/Bikesharing/blob/main/Images/CheckoutTimesByGender.png)
 
 ### (f) Trips by weekday for each hour
 During the weekdays, the checkout times are highest around 8 AM, 5 PM, and 6 PM. During the weekends, the checkout times are highest around 10 AM to 5 PM.
