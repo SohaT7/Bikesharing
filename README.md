@@ -103,7 +103,7 @@ Some other visualizations that can be added are as follows:
 - Area by Gender type: This can help determine if there are some areas that are preferred by different genders, or all areas are equally preferred by all of them. We can use the latitude and longitude fields along with the gender field. 
 - Area by trip duration: We can use latitude and longitude fields with the trip duration field, to determine if the bikers spend more time in certain areas than others. 
 
-### Link to the Dashboard:
+## Link to the Dashboard
 https://public.tableau.com/shared/526QNCSWW?:display_count=n&:origin=viz_share_link
 
 ## Contact Information
