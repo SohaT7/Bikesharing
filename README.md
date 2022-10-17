@@ -1,4 +1,23 @@
 # Bikesharing
+## Table of Contents
+- [Overview of the Analysis](#overview-of-the-analysis)
+    - [Purpose](#purpose)
+    - [About the Dataset](#about-the-dataset)
+    - [Tools Used](#tools-used)
+    - [Description](#description)
+- [Results](#results)
+    - [Overview of data](#Overview-of-data)
+    - [Top starting and ending locations in NYC in August 2019](#Top-starting-and-ending-locations-in-NYC-in-August-2019)
+    - [Bike Repairs](#Bike-Repairs)
+    - [Checkout times for users](#Checkout-times-for-users)
+    - [Checkout times by gender](#Checkout-times-by-gender)
+    - [Trips by weekday for each hour](#Trips-by-weekday-for-each-hour)
+    - [Trips by gender (weekday per hour)](#Trips-by-gender-(weekday-per-hour))
+    - [User trips by gender by weekday](#User-trips-by-gender-by-weekday)
+- [Summary](#summary)
+- [Link to the Dashboard](#Link-to-the-Dashboard)
+- [Contact Information](#contact-information)
+
 ## Overview of the Analysis
 ### Purpose:
 The purpose of this analysis is to explore the NYC Citi Bike sharing data to convince investors to start a similar program in the town of Des Moine.
@@ -13,9 +32,11 @@ The dataset is the NYC Citi Bike data for August 2019, from the [Citi Bike Syste
 The [dashboard visualization](https://public.tableau.com/app/profile/sturr/viz/Book_bikesharing/NYCStory) has been created using Tableau, with some modifications to the original dataset made using Python.
 
 ### Description:
-The Trip Duration in the original dataset was changed to a datetime format and the data loaded into a new DataFrame. The fields contained wihtin this dataset are as follows:
+The values in the Trip Duration column in the original dataset were changed to a datetime format, and the data loaded into a new DataFrame. The code is contained in the file [NYC_CitiBike](https://github.com/SohaT7/Bikesharing/blob/main/NYC_CitiBike.ipynb).
 
-![Data Fields](https://github.com/SohaT7/Bikesharing/blob/main/Images/Datafields.png)
+The fields contained within this dataset are as follows:
+
+<img width="200" alt="image" src="https://github.com/SohaT7/Bikesharing/blob/main/Images/Datafields.png"> 
 
 Using this new dataset, several visualizations were then created in Tableau:
 - Number of rides
@@ -31,58 +52,59 @@ Using this new dataset, several visualizations were then created in Tableau:
 - User trips by gender by weekday
 
 ## Results
-### (a) Overview of data:
-Number of rides in the month of August are 2,344,224 in total. The proportion of short-term customers of the bike service to its annual subscribers is 443,865 customers to 1,900,359 subscribers. Peak hours for bike trips/rentals during the month of August are: 5 PM and 6 PM, followed by 8 AM and 9 AM.
+### Overview of data
+Number of rides in the month of August are 2,344,224 in total. There are 443,865 short-term customers and 1,900,359 annual subscribers to the bike service. Peak hours for bike trips/rentals during the month of August are: 5 PM and 6 PM, followed by 8 AM and 9 AM.
 
 ![Overview of data](https://github.com/SohaT7/Bikesharing/blob/main/Images/Overview.png)
 
-### (b) Top starting and ending locations in NYC in August 2019
-The highest traffic locations for starting and ending points appear to be in Manhattan. The most popular locations are denoted by symbols which have a larger size and a darker-toned color, as can be seen in the maps below, which show the top starting locations and top ending locations respectively:
+### Top starting and ending locations in NYC in August 2019
+The highest traffic locations for starting and ending points appear to be in Manhattan. The most popular locations are denoted by symbols which have a larger size and a darker-toned color. The maps below show the top starting locations and top ending locations respectively:
 
 ![Map showing the Top Starting Locations](https://github.com/SohaT7/Bikesharing/blob/main/Images/TopStartingLocations.png)
 
 ![Map showing the Top Ending Locations](https://github.com/SohaT7/Bikesharing/blob/main/Images/TopEndingLocations.png)
 
-### (c) Bike Repairs
-The tree map helps us visualize how often a bike is used and which among all are used most frequently. The latter will most probably require repairs most often.
+### Bike Repairs
+The tree map helps us visualize how often each bike is used, and which bikes are used most frequently. The bikes that are used most frequently will most probably be the ones that require repairs most often.
 
 ![Tree map showing Bike Usage Frequency](https://github.com/SohaT7/Bikesharing/blob/main/Images/BikeRepairs.png)
 
-### (d) Checkout times for users
+### Checkout times for users
 Most of the bikes are checked out for around 40 minutes or less.
 
 ![Graph showing the Checkout times for users](https://github.com/SohaT7/Bikesharing/blob/main/Images/CheckoutTimesForUsers.png)
 
-### (e) Checkout times by gender
-Graphs for all genders start to level around the 40 minutes mark, i.e. most bikes are checked by all genders for 40 minutes or under. Most of these bikes are checkout by males, followed by females, and then others. 
+### Checkout times by gender
+Graphs for all genders start to level around the 40 minutes mark, i.e. most bikes are checked out by all genders for 40 minutes or under. Most of these bikes are checked out by males, followed by females, and then others. 
 
 ![Graph showing Checkout times by gender](https://github.com/SohaT7/Bikesharing/blob/main/Images/CheckoutTimesByGender.png)
 
-### (f) Trips by weekday for each hour
+### Trips by weekday for each hour
 During the weekdays, the checkout times are highest around 8 AM, 5 PM, and 6 PM. During the weekends, the checkout times are highest around 10 AM to 5 PM.
 
 ![Heat map showing Trips by weekday for each hour](https://github.com/SohaT7/Bikesharing/blob/main/Images/TripsByWeekday.png)
 
-### (g) Trips by gender (weekday per hour)
-Checkouts are highest around 7 AM, 8 AM, and 5 to 6 PM during the weekdays, with them being the highest for males.
+### Trips by gender (weekday per hour)
+Checkouts are highest around 7 AM, 8 AM, and 5 to 6 PM during the weekdays, and are the highest for males.
 
 ![Heat map showing Trips by gender (weekday per hour)](https://github.com/SohaT7/Bikesharing/blob/main/Images/TripsByGender.png)
 
-### (h) User trips by gender by weekday
+### User trips by gender by weekday
 Annual subscribers appear to utilize bikes more than short-term customers. That said, male subscribers appear to use bikes more than females.
 
 ![Heat map showing User trips by gender by weekday](https://github.com/SohaT7/Bikesharing/blob/main/Images/UserTrips.png)
 
 ## Summary
 The annually subscribed users appear to use bikes more than the short-term customers. Males seem to be utilizing bikes more than females, followed by the other genders thereafter. The peak usage timings are in the morning (8 AM and 9 AM) and evening (5 PM and 6 PM). Most rentals are in Manhattan, and for 40 minutes or less. 
-Some other visualization that can be added are:
-- Stations by User Type: This can help us figure if tourists use some stations/areas more or different than the annual subscribers/locals. We can make use of longitude and latitude fields to generate a geographical map or station names to create a heat map.
-- Traffic in each station: This can help gauge how much traffic that uses Citi Bikes passes by through each station. We can use Station IDs to generate a tree map for this one. 
-- Area by Gender type: This can help us determine if there are some areas that are preferred by different genders, or all areas are equally preferred by all of them. We can use the latitude and longitude fields alogn with the gender field. 
+
+Some other visualizations that can be added are as follows:
+- Stations by User Type: This can help determine if the tourists use the same stations as the annual subscribers/locals, and the frequency of usage. We can make use of longitude and latitude fields to generate a geographical map or station names to create a heat map.
+- Traffic in each station: This can help gauge how much traffic that uses Citi Bikes passes through each station. We can use Station IDs to generate a tree map for this one. 
+- Area by Gender type: This can help determine if there are some areas that are preferred by different genders, or all areas are equally preferred by all of them. We can use the latitude and longitude fields along with the gender field. 
 - Area by trip duration: We can use latitude and longitude fields with the trip duration field, to determine if the bikers spend more time in certain areas than others. 
 
-### Link to Dashboard:
-[Click here to be directed to the dashboard!](https://public.tableau.com/app/profile/sturr/viz/Book_bikesharing/NYCStory)
+### Link to the Dashboard:
+https://public.tableau.com/shared/526QNCSWW?:display_count=n&:origin=viz_share_link
 
 ## Contact Information
 Email: st.sohatariq@gmail.com
