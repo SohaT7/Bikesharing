@@ -20,7 +20,7 @@
 
 ## Overview of the Analysis
 ### Purpose:
-The purpose of this analysis is to explore the NYC Citi Bike sharing data to convince investors to start a similar program in the town of Des Moine.
+The purpose of this analysis is to explore the NYC Citi Bike sharing data to help investors decide if starting a similar bikesharing program in another city would be worthwile.
 
 ### About the Dataset:
 The dataset is the NYC Citi Bike data for August 2019, from the [Citi Bike System Data page](https://ride.citibikenyc.com/system-data).
@@ -55,7 +55,7 @@ Using this new dataset, several visualizations were then created in Tableau:
 ### Overview of data
 Number of rides in the month of August are 2,344,224 in total. There are 443,865 short-term customers and 1,900,359 annual subscribers to the bike service. Peak hours for bike trips/rentals during the month of August are: 5 PM and 6 PM, followed by 8 AM and 9 AM.
 
-![Overview of data](https://github.com/SohaT7/Bikesharing/blob/main/Images/Overview.png)
+![Overview of data](https://github.com/SohaT7/Bikesharing/blob/main/Images/Tableau_main.png)
 
 ### Top starting and ending locations in NYC in August 2019
 The highest traffic locations for starting and ending points appear to be in Manhattan. The most popular locations are denoted by symbols which have a larger size and a darker-toned color. The maps below show the top starting locations and top ending locations respectively:
@@ -92,7 +92,7 @@ Checkouts are highest around 7 AM, 8 AM, and 5 to 6 PM during the weekdays, and 
 ### User trips by gender by weekday
 Annual subscribers appear to utilize bikes more than short-term customers. That said, male subscribers appear to use bikes more than females.
 
-![Heat map showing User trips by gender by weekday](https://github.com/SohaT7/Bikesharing/blob/main/Images/UserTrips.png)
+![Heat map showing User trips by gender by weekday](https://github.com/SohaT7/Bikesharing/blob/main/Images/ride_breakdown.png)
 
 ## Summary
 The annually subscribed users appear to use bikes more than the short-term customers. Males seem to be utilizing bikes more than females, followed by the other genders thereafter. The peak usage timings are in the morning (8 AM and 9 AM) and evening (5 PM and 6 PM). Most rentals are in Manhattan, and for 40 minutes or less. 
@@ -102,9 +102,6 @@ Some other visualizations that can be added are as follows:
 - Traffic in each station: This can help gauge how much traffic that uses Citi Bikes passes through each station. We can use Station IDs to generate a tree map for this one. 
 - Area by Gender type: This can help determine if there are some areas that are preferred by different genders, or all areas are equally preferred by all of them. We can use the latitude and longitude fields along with the gender field. 
 - Area by trip duration: We can use latitude and longitude fields with the trip duration field, to determine if the bikers spend more time in certain areas than others. 
-
-## Link to the Dashboard
-https://public.tableau.com/shared/526QNCSWW?:display_count=n&:origin=viz_share_link
 
 ## Contact Information
 Email: st.sohatariq@gmail.com
