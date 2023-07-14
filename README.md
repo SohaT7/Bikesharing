@@ -60,9 +60,7 @@ Number of rides in the month of August are 2,344,224 in total. There are 443,865
 ### Top starting and ending locations in NYC in August 2019
 The highest traffic locations for starting and ending points appear to be in Manhattan. The most popular locations are denoted by symbols which have a larger size and a darker-toned color. The maps below show the top starting locations and top ending locations respectively:
 
-![Map showing the Top Starting and Ending Locations](https://github.com/SohaT7/Bikesharing/blob/main/Images/ride_map.png)
-
-<img style="width:60%" alt="Map showing the Top Starting and Ending Locations" src="https://github.com/SohaT7/Bikesharing/blob/main/Images/ride_map.png">
+<img style="width:80%" alt="Map showing the Top Starting and Ending Locations" src="https://github.com/SohaT7/Bikesharing/blob/main/Images/ride_map.png">
 
 ### Bike Repairs
 The tree map helps us visualize how often each bike is used, and which bikes are used most frequently. The bikes that are used most frequently will most probably be the ones that require repairs most often.
