@@ -29,7 +29,7 @@ The dataset is the NYC Citi Bike data for August 2019, from the [Citi Bike Syste
 - Tableau
 - Python
 
-The [dashboard visualization](https://public.tableau.com/app/profile/sturr/viz/Book_bikesharing/NYCStory) has been created using Tableau, with some modifications to the original dataset made using Python.
+The dashboard visualization has been created using Tableau, with data processing done in Python.
 
 ### Description:
 The values in the Trip Duration column in the original dataset were changed to a datetime format, and the data loaded into a new DataFrame. The code is contained in the file [NYC_CitiBike](https://github.com/SohaT7/Bikesharing/blob/main/NYC_CitiBike.ipynb).
